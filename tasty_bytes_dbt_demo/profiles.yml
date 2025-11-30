@@ -17,3 +17,11 @@ tasty_bytes:
       database: db_test
       schema: prod
       warehouse: compute_wh
+    int:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: accountadmin
+      database: db_test
+      schema: integrations
+      warehouse: compute_wh
